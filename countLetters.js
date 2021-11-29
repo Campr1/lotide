@@ -19,7 +19,9 @@ const countLetters = function(letters) {
   return stringCount;
 }
 
-const counter = countLetters("Lighthouse Labs");
+/*const counter = countLetters("Lighthouse Labs");
 assertEqual(counter["L"], 2);
 assertEqual(counter["s"], 2);
 assertEqual(counter["o"], 4);
+*/
+module.exports = countLetters;
